@@ -18,7 +18,7 @@ url                      : "https://ynievesdotnet.github.io"
 baseurl                  : "/"
 repository               : "ynievesdotnet/ynievesdotnet.github.io"
 teaser                   : "/assets/images/500x300.png"
-logo                     : "/assets/images/88x88.png"
+logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # false true, false (default)
 words_per_minute         : 200
@@ -94,7 +94,7 @@ sidebar:
 # Site Author
 author:
   name             : "Yoinier Hernández Nieves"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/ynieves.jpg"
   bio              : "CEO YnievesDotNet."
   location         : "Las Tunas, Cuba"
   email            : ynievesdotnet@gmail.com

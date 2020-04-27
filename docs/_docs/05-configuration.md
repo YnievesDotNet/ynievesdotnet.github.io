@@ -234,7 +234,7 @@ header:
 To insert a logo before the site title, place a graphic in the `/assets/images/` directory and add the filename to `_config.yml`:
 
 ```yaml
-logo: "/assets/images/88x88.png"
+logo: "/assets/images/logo.png"
 ```
 
 <figure>
