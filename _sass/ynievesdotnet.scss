@@ -1,0 +1,40 @@
+/*!
+ * Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
+ * Copyright 2013-2019 Michael Rose - mademistakes.com | @ynievesdotnet
+ * Licensed under MIT (https://github.com/ynievesdotnet/ynievesdotnet/blob/master/LICENSE)
+*/
+
+/* Variables */
+@import "ynievesdotnet/variables";
+
+/* Mixins and functions */
+@import "ynievesdotnet/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "ynievesdotnet/vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "ynievesdotnet/vendor/susy/susy";
+@import "ynievesdotnet/mixins";
+
+/* Core CSS */
+@import "ynievesdotnet/reset";
+@import "ynievesdotnet/base";
+@import "ynievesdotnet/forms";
+@import "ynievesdotnet/tables";
+@import "ynievesdotnet/animations";
+
+/* Components */
+@import "ynievesdotnet/buttons";
+@import "ynievesdotnet/notices";
+@import "ynievesdotnet/masthead";
+@import "ynievesdotnet/navigation";
+@import "ynievesdotnet/footer";
+@import "ynievesdotnet/search";
+@import "ynievesdotnet/syntax";
+
+/* Utility classes */
+@import "ynievesdotnet/utilities";
+
+/* Layout specific */
+@import "ynievesdotnet/page";
+@import "ynievesdotnet/archive";
+@import "ynievesdotnet/sidebar";
+@import "ynievesdotnet/print";

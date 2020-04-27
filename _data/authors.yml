@@ -1,0 +1,26 @@
+# Authors
+
+Yoinier Hernandez:
+  name        : "Yoinier Hernández Nieves"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  avatar      : "/assets/images/bio-photo-2.jpg"
+  email            : ynievesdotnet@gmail.com
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: #mailto:ynievesdotnet@gmail.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.ynieves.net"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/@ynievesdotnet"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/users/ynievesdotnet"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ynievesdotnet"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"

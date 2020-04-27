@@ -219,12 +219,12 @@ If you're not using the `jekyll-archives` plugin then you need to create archive
 
 | Name                 | Layout | Example |
 | -------------------- | ------ | ------ |
-| [Posts Archive](https://mmistakes.github.io/minimal-mistakes/year-archive/) | `layout: posts` | [year-archive.md](https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_pages/year-archive.md) |
-| [Categories Archive](https://mmistakes.github.io/minimal-mistakes/categories/) | `layout: categories` | [category-archive.md](https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_pages/category-archive.md) |
-| [Category Archive](https://mmistakes.github.io/minimal-mistakes/categories/edge-case/) | `layout: category` | [edge-case.md](https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_pages/edge-case.md) |
-| [Tags Archive](https://mmistakes.github.io/minimal-mistakes/tags/) | `layout: tags` | [tag-archive.md](https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_pages/tag-archive.md) |
-| [Tag Archive](https://mmistakes.github.io/minimal-mistakes/tags/markup/) | `layout: tag` | [markup.md](https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_pages/markup.md) |
-| [Collection Archive](https://mmistakes.github.io/minimal-mistakes/recipes-archive/) | `layout: collection` | [recipes-archive.md](https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_pages/recipes-archive.md) |
+| [Posts Archive](https://ynievesdotnet.github.io/ynievesdotnet/year-archive/) | `layout: posts` | [year-archive.md](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/docs/_pages/year-archive.md) |
+| [Categories Archive](https://ynievesdotnet.github.io/ynievesdotnet/categories/) | `layout: categories` | [category-archive.md](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/docs/_pages/category-archive.md) |
+| [Category Archive](https://ynievesdotnet.github.io/ynievesdotnet/categories/edge-case/) | `layout: category` | [edge-case.md](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/docs/_pages/edge-case.md) |
+| [Tags Archive](https://ynievesdotnet.github.io/ynievesdotnet/tags/) | `layout: tags` | [tag-archive.md](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/docs/_pages/tag-archive.md) |
+| [Tag Archive](https://ynievesdotnet.github.io/ynievesdotnet/tags/markup/) | `layout: tag` | [markup.md](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/docs/_pages/markup.md) |
+| [Collection Archive](https://ynievesdotnet.github.io/ynievesdotnet/recipes-archive/) | `layout: collection` | [recipes-archive.md](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/docs/_pages/recipes-archive.md) |
 
 **Note:** By default, documents are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
 {: .notice--info}
@@ -353,7 +353,7 @@ Feature blocks can be assigned and aligned to the `left`, `right`, or `center` w
 
 ## Search page layout
 
-A page with a search form. Add `layout: search` to the YAML Front Matter similar to [this example](https://github.com/mmistakes/minimal-mistakes/blob/master/test/_pages/search.md) on the test site.
+A page with a search form. Add `layout: search` to the YAML Front Matter similar to [this example](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/test/_pages/search.md) on the test site.
 
 ![search page layout example]({{ "/assets/images/search-layout-example.png" | relative_url }})
 
@@ -556,16 +556,16 @@ author:
       url: "https://mademistakes.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/ynievesdotnet"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/ynievesdotnet"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://instagram.com/ynievesdotnet"
 ```
 
-**Note:** Depending on the icon and theme skin used, colors may not be used. Popular social networks like Twitter, Facebook, Instagram, etc. have the appropriate brand color set in CSS. To change or add missing colors edit [`_utilities.scss`](https://github.com/mmistakes/minimal-mistakes/blob/master/_sass/minimal-mistakes/_utilities.scss) in `<site root>/_sass/minimal-mistakes/`.
+**Note:** Depending on the icon and theme skin used, colors may not be used. Popular social networks like Twitter, Facebook, Instagram, etc. have the appropriate brand color set in CSS. To change or add missing colors edit [`_utilities.scss`](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/_sass/ynievesdotnet/_utilities.scss) in `<site root>/_sass/ynievesdotnet/`.
 {: .notice--info}
 
 For example, to color a Reddit icon, simply add a `color` declaration and the corresponding hex code like so:
@@ -708,7 +708,7 @@ The `single` layout has an option to enable social links at the bottom of posts 
 
 To enable these links add `share: true` to a post or page's YAML Front Matter or use a [default](https://jekyllrb.com/docs/configuration/#front-matter-defaults) in your `_config.yml` to apply more globally.
 
-If you'd like to add, remove, or change the order of these default links you can do so by editing [`_includes/social-share.html`](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/social-share.html).
+If you'd like to add, remove, or change the order of these default links you can do so by editing [`_includes/social-share.html`](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/_includes/social-share.html).
 
 Let's say you wanted to replace the LinkedIn button with a Reddit one. Simply replace the HTML with the following:
 

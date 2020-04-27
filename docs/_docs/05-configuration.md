@@ -6,7 +6,7 @@ last_modified_at: 2019-10-04T10:54:48-04:00
 toc: true
 ---
 
-Settings that affect your entire site can be changed in [Jekyll's configuration file](https://jekyllrb.com/docs/configuration/): `_config.yml`, found in the root of your project. If you don't have this file you'll need to copy or create one using the theme's [default `_config.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml) as a base.
+Settings that affect your entire site can be changed in [Jekyll's configuration file](https://jekyllrb.com/docs/configuration/): `_config.yml`, found in the root of your project. If you don't have this file you'll need to copy or create one using the theme's [default `_config.yml`](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/_config.yml) as a base.
 
 **Note:** for technical reasons, `_config.yml` is NOT reloaded automatically when used with `jekyll serve`. If you make any changes to this file, please restart the server process for them to be applied.
 {: .notice--warning}
@@ -20,7 +20,7 @@ Take a moment to look over the configuration file included with the theme. Comme
 If you're using the Ruby gem version of the theme you'll need this line to activate it:
 
 ```yaml
-theme: minimal-mistakes-jekyll
+theme: ynievesdotnet-jekyll
 ```
 
 ### Skin
@@ -28,10 +28,10 @@ theme: minimal-mistakes-jekyll
 Easily change the color scheme of the theme using one of the provided "skins":
 
 ```yaml
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+ynievesdotnet_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 ```
 
-**Note:** If you have made edits to the theme's CSS files be sure to update [`/assets/css/main.scss`](https://github.com/mmistakes/minimal-mistakes/blob/master/assets/css/main.scss) to include `@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin` before the `minimal-mistakes` import.
+**Note:** If you have made edits to the theme's CSS files be sure to update [`/assets/css/main.scss`](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/assets/css/main.scss) to include `@import "ynievesdotnet/skins/{{ site.ynievesdotnet_skin | default: 'default' }}"; // skin` before the `ynievesdotnet` import.
 {: .notice--warning}
 
 #### Air skin: `air`
@@ -157,7 +157,7 @@ _Example:_ `description: "A flexible Jekyll theme for your blog or site with a m
 
 ### Site URL
 
-The base hostname and protocol for your site. If you're hosting with GitHub Pages this will be something like `url: "https://github.io.mmistakes"` or `url: "https://mademistakes.com"` if you have a custom domain name.
+The base hostname and protocol for your site. If you're hosting with GitHub Pages this will be something like `url: "https://github.io.ynievesdotnet"` or `url: "https://mademistakes.com"` if you have a custom domain name.
 
 GitHub Pages now [forces `https://` for new sites](https://help.github.com/articles/securing-your-github-pages-site-with-https/) so be mindful of that when setting your URL to avoid mixed-content warnings.
 
@@ -168,7 +168,7 @@ GitHub Pages now [forces `https://` for new sites](https://help.github.com/artic
 
 This little option causes all kinds of confusion in the Jekyll community. If you're not hosting your site as a GitHub Pages Project or in a subfolder (eg: `/blog`), then don't mess with it.
 
-In the case of the Minimal Mistakes demo site it's hosted on GitHub at <https://mmistakes.github.io/minimal-mistakes>. To correctly set this base path I'd use `url: "https://mmistakes.github.io"` and `baseurl: "/minimal-mistakes"`.
+In the case of the Minimal Mistakes demo site it's hosted on GitHub at <https://ynievesdotnet.github.io/ynievesdotnet>. To correctly set this base path I'd use `url: "https://ynievesdotnet.github.io"` and `baseurl: "/ynievesdotnet"`.
 
 For more information on how to properly use `site.url` and `site.baseurl` as intended by the Jekyll maintainers, check [Parker Moore's post on the subject](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/).
 
@@ -183,7 +183,7 @@ Add your repository name with organization to your site's configuration file, `_
 repository: "username/repo-name"
 ```
 
-"NWO" stands for "name with owner." It is GitHub lingo for the username of the owner of the repository plus a forward slash plus the name of the repository, e.g. `mmistakes/minimal-mistakes`, where **mmistakes** is the owner and **minimal-mistakes** is the repository name.
+"NWO" stands for "name with owner." It is GitHub lingo for the username of the owner of the repository plus a forward slash plus the name of the repository, e.g. `ynievesdotnet/ynievesdotnet`, where **ynievesdotnet** is the owner and **ynievesdotnet** is the repository name.
 
 Your `site.github.*` fields should fill in like normal. If you run Jekyll with the --verbose flag, you should be able to see all the API calls made.
 
@@ -368,7 +368,7 @@ comments:
 To use utterances you will need to [install the app](https://github.com/apps/utterances) to your GitHub repository by adding the following to `_config.yml`:
 
 ```yaml
-repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: # GitHub username/repo-name e.g. "ynievesdotnet/ynievesdotnet"
 ```
 
 **Note:** Make sure the repo is public, otherwise your readers will not be able to view the issues/comments. The [issues feature](https://guides.github.com/features/issues/) also needs to be active on your repo.
@@ -409,7 +409,7 @@ Due to the [support for GitLab](https://github.com/eduardoboucas/staticman/pull/
 
 ```yaml
 # _config.yml (defaults)
-repository  : # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository  : # Git username/repo-name e.g. "ynievesdotnet/ynievesdotnet"
 comments:
   provider  : "staticman_v2"
   staticman:
@@ -419,7 +419,7 @@ comments:
 
 ###### Staticman v2
 
-Default settings have been provided in [`staticman.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/staticman.yml) and are commented to guide you through setup. View the [full list of configurations](https://staticman.net/docs/configuration).
+Default settings have been provided in [`staticman.yml`](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/staticman.yml) and are commented to guide you through setup. View the [full list of configurations](https://staticman.net/docs/configuration).
 
 ```yaml
 # staticman.yml (defaults)
@@ -445,7 +445,7 @@ These settings need to be added to your `_config.yml` file as well:
 
 ```yaml
 # _config.yml (defaults)
-repository  : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository  : # GitHub username/repo-name e.g. "ynievesdotnet/ynievesdotnet"
 comments:
   provider  : "staticman_v2"
   staticman:
@@ -522,7 +522,7 @@ atom_feed:
   path: "http://feeds.feedburner.com/youFeedname"
 ```
 
-**Note:** By default the site feed is linked in two locations: inside the [`<head>` element](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/head.html) and at the bottom of every page in the [site footer](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/footer.html).
+**Note:** By default the site feed is linked in two locations: inside the [`<head>` element](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/_includes/head.html) and at the bottom of every page in the [site footer](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/_includes/footer.html).
 {: .notice--info}
 
 ### Site search
@@ -540,7 +540,7 @@ The default search uses [**Lunr**](https://lunrjs.com/) to build a search index 
 
 #### Algolia
 
-For faster and more relevant search ([see demo](https://mmistakes.github.io/minimal-mistakes-algolia-search/)):
+For faster and more relevant search ([see demo](https://ynievesdotnet.github.io/ynievesdotnet-algolia-search/)):
 
 1. Add the [`jekyll-algolia`](https://github.com/algolia/jekyll-algolia) gem to your `Gemfile`, in the `:jekyll_plugins` section.
 
@@ -680,14 +680,14 @@ To improve the appearance of links shared from your site to social networks like
 
 Twitter username for the site. For pages that have custom author Twitter accounts assigned in their YAML Front Matter or data file, they will be attributed as a **creator** in the Twitter Card.
 
-For example if my site's Twitter account is `@mmistakes-theme` I would add the following to `_config.yml`
+For example if my site's Twitter account is `@ynievesdotnet-theme` I would add the following to `_config.yml`
 
 ```yaml
 twitter:
-  username: "mmistakes-theme"
+  username: "ynievesdotnet-theme"
 ```
 
-And if I assign `@mmistakes` as an author account it will appear in the Twitter Card along with `@mmistakes-theme`, attributed as a creator of the page being shared.
+And if I assign `@ynievesdotnet` as an author account it will appear in the Twitter Card along with `@ynievesdotnet-theme`, attributed as a creator of the page being shared.
 
 **Note**: You need to validate cards are working and have Twitter [approve Player Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card) before they will begin showing up.
 {: .notice--warning}
@@ -802,7 +802,7 @@ Author links are all optional, include the ones you want visible under the `auth
 | --- | --- |
 | **label** | Link label (e.g. `"Twitter"`) |
 | **icon** | [Font Awesome icon](https://fontawesome.com/icons?d=gallery) classes (e.g. `"fab fa-fw fa-twitter-square"`) |
-| **url** | Link URL (e.g. `"https://twitter.com/mmistakes"`) |
+| **url** | Link URL (e.g. `"https://twitter.com/ynievesdotnet"`) |
 
 ```yaml
 author:
@@ -816,13 +816,13 @@ author:
       url: "https://mademistakes.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/ynievesdotnet"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/ynievesdotnet"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://instagram.com/ynievesdotnet"
 ```
 
 To customize the author sidebar, read the full [layout documentation]({{ "/docs/layouts/#author-profile" | relative_url }}).
@@ -835,20 +835,20 @@ Footer links can be added under the `footer.links` array.
 | --- | --- |
 | **label** | Link label (e.g. `"Twitter"`) |
 | **icon** | [Font Awesome icon](https://fontawesome.com/icons?d=gallery) classes (e.g. `"fab fa-fw fa-twitter-square"`) |
-| **url** | Link URL (e.g. `"https://twitter.com/mmistakes"`) |
+| **url** | Link URL (e.g. `"https://twitter.com/ynievesdotnet"`) |
 
 ```yaml
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/ynievesdotnet"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/ynievesdotnet"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://instagram.com/ynievesdotnet"
 ```
 
 **Note:** Twitter and Facebook footer links no longer automatically pull from `site.twitter.username` and `site.facebook.username`. This behavior has been deprecated in favor of the `footer.links` array above.
@@ -909,7 +909,7 @@ defaults:
       layout: single
 ```
 
-And of course any default value can be overridden by settings in a post, page, or collection file. All you need to do is specify the settings in the YAML Front Matter. For more examples be sure to check out the demo site's [`_config.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml).
+And of course any default value can be overridden by settings in a post, page, or collection file. All you need to do is specify the settings in the YAML Front Matter. For more examples be sure to check out the demo site's [`_config.yml`](https://github.com/ynievesdotnet/ynievesdotnet/blob/master/_config.yml).
 
 ## Outputting
 

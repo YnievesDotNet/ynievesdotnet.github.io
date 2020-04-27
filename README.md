@@ -1,23 +1,23 @@
-# [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+# [Minimal Mistakes Jekyll theme](https://ynievesdotnet.github.io/ynievesdotnet/)
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/ynievesdotnet/ynievesdotnet/master/LICENSE)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
-[![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/mmistakes)
+[![Ruby gem](https://img.shields.io/gem/v/ynievesdotnet-jekyll.svg)](https://rubygems.org/gems/ynievesdotnet-jekyll)
+[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/ynievesdotnet)
 
 Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building personal sites, blogs, and portfolios. As the name implies, styling is purposely minimalistic to be enhanced and customized by you :smile:.
 
 :sparkles: See what's new in the [CHANGELOG](CHANGELOG.md).
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/mmistakes) to continue developing and maintaining it.**
+**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/ynievesdotnet) to continue developing and maintaining it.**
 
-[![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
+[![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/ynievesdotnet)
 
 **Note:** The theme uses the [jekyll-include-cache](https://github.com/benbalter/jekyll-include-cache) plugin which will need to be installed in your `Gemfile` and added to the `plugins` array of `_config.yml`. Otherwise you'll encounter `Unknown tag 'include_cached'` errors at build.
 
 [![Minimal Mistakes live preview][2]][1]
 
-[1]: https://mmistakes.github.io/minimal-mistakes/
+[1]: https://ynievesdotnet.github.io/ynievesdotnet/
 [2]: screenshot.png (live preview)
 
 ![layout examples](screenshot-layouts.png)
@@ -30,7 +30,7 @@ Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building per
 - Nine different skins (color variations).
 - Several responsive layout options (single, archive index, search, splash, and paginated home page).
 - Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data.
-- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
+- Optional [header images](https://ynievesdotnet.github.io/ynievesdotnet/docs/layouts/#headers), [custom sidebars](https://ynievesdotnet.github.io/ynievesdotnet/docs/layouts/#sidebars), [table of contents](https://ynievesdotnet.github.io/ynievesdotnet/docs/helpers/#table-of-contents), [galleries](https://ynievesdotnet.github.io/ynievesdotnet/docs/helpers/#gallery), related posts, [breadcrumb links](https://ynievesdotnet.github.io/ynievesdotnet/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://ynievesdotnet.github.io/ynievesdotnet/docs/helpers/#navigation-list), and more.
 - Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), static-based via [Staticman](https://staticman.net/), and [utterances](https://utteranc.es/)).
 - [Google Analytics](https://www.google.com/analytics/) support.
 - UI localized text in English (default), Brazilian Portuguese (Português brasileiro), Catalan, Chinese, Danish, Dutch, Finnish, French (Français), German (Deutsch), Greek, Hindi (हिंदी), Hungarian, Indonesian, Irish (Gaeilge), Italian (Italiano), Japanese, Korean, Malayalam, Nepali (Nepalese), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), and Vietnamese.
@@ -41,15 +41,15 @@ This theme comes in nine different skins (in addition to the default one).
 
 | `air` | `contrast` | `dark` |
 | --- | --- | --- |
-| [![air skin](https://mmistakes.github.io/minimal-mistakes/assets/images/air-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/air-skin-archive-large.png) | [![contrast skin](https://mmistakes.github.io/minimal-mistakes/assets/images/contrast-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/contrast-skin-archive-large.png) | [![dark skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dark-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/dark-skin-archive-large.png) |
+| [![air skin](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/air-skin-archive.png)](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/air-skin-archive-large.png) | [![contrast skin](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/contrast-skin-archive.png)](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/contrast-skin-archive-large.png) | [![dark skin](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/dark-skin-archive.png)](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/dark-skin-archive-large.png) |
 
 | `dirt` | `mint` | `sunrise` |
 | --- | --- | --- |
-| [![dirt skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dirt-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/dirt-skin-archive-large.png) | [![mint skin](https://mmistakes.github.io/minimal-mistakes/assets/images/mint-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/mint-skin-archive-large.png) | [![sunrise skin](https://mmistakes.github.io/minimal-mistakes/assets/images/sunrise-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/sunrise-skin-archive-large.png) |
+| [![dirt skin](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/dirt-skin-archive.png)](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/dirt-skin-archive-large.png) | [![mint skin](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/mint-skin-archive.png)](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/mint-skin-archive-large.png) | [![sunrise skin](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/sunrise-skin-archive.png)](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/sunrise-skin-archive-large.png) |
 
 | `aqua` | `neon` | `plum` |
 | --- | --- | --- |
-| [![aqua skin](https://mmistakes.github.io/minimal-mistakes/assets/images/aqua-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/aqua-skin-archive-large.png) | [![neon skin](https://mmistakes.github.io/minimal-mistakes/assets/images/neon-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/neon-skin-archive-large.png) | [![plum skin](https://mmistakes.github.io/minimal-mistakes/assets/images/plum-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/plum-skin-archive-large.png) |
+| [![aqua skin](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/aqua-skin-archive.png)](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/aqua-skin-archive-large.png) | [![neon skin](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/neon-skin-archive.png)](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/neon-skin-archive-large.png) | [![plum skin](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/plum-skin-archive.png)](https://ynievesdotnet.github.io/ynievesdotnet/assets/images/plum-skin-archive-large.png) |
 
 ## Demo pages
 
@@ -65,14 +65,14 @@ This theme comes in nine different skins (in addition to the default one).
 
 Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
 
-[header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
-[gallery-post]: https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/
-[html-tags-post]: https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/
-[syntax-post]: https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/
-[sample-collection]: https://mmistakes.github.io/minimal-mistakes/recipes/chocolate-chip-cookies/
-[categories-archive]: https://mmistakes.github.io/minimal-mistakes/categories/
-[tags-archive]: https://mmistakes.github.io/minimal-mistakes/tags/
-[year-archive]: https://mmistakes.github.io/minimal-mistakes/year-archive/
+[header-image-post]: https://ynievesdotnet.github.io/ynievesdotnet/layout-header-image-text-readability/
+[gallery-post]: https://ynievesdotnet.github.io/ynievesdotnet/post%20formats/post-gallery/
+[html-tags-post]: https://ynievesdotnet.github.io/ynievesdotnet/markup/markup-html-tags-and-formatting/
+[syntax-post]: https://ynievesdotnet.github.io/ynievesdotnet/markup-syntax-highlighting/
+[sample-collection]: https://ynievesdotnet.github.io/ynievesdotnet/recipes/chocolate-chip-cookies/
+[categories-archive]: https://ynievesdotnet.github.io/ynievesdotnet/categories/
+[tags-archive]: https://ynievesdotnet.github.io/ynievesdotnet/tags/
+[year-archive]: https://ynievesdotnet.github.io/ynievesdotnet/year-archive/
 
 ## Installation
 
@@ -87,7 +87,7 @@ This allows for easier installation and updating as you don't have to manage any
 1. Add the following to your `Gemfile`:
 
    ```ruby
-   gem "minimal-mistakes-jekyll"
+   gem "ynievesdotnet-jekyll"
    ```
 
 2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
@@ -99,7 +99,7 @@ This allows for easier installation and updating as you don't have to manage any
 3. Set the `theme` in your project's Jekyll `_config.yml` file:
 
    ```yaml
-   theme: minimal-mistakes-jekyll
+   theme: ynievesdotnet-jekyll
    ```
 
 To update the theme run `bundle update`.
@@ -126,19 +126,19 @@ To install:
    bundle
    ```
 
-4. Add `remote_theme: "mmistakes/minimal-mistakes@4.19.1"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
+4. Add `remote_theme: "ynievesdotnet/ynievesdotnet@4.19.1"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
 
-**Looking for an example?** Fork the [Minimal Mistakes remote theme starter](https://github.com/mmistakes/mm-github-pages-starter) for the quickest method of getting a GitHub Pages hosted site up and running. Replace sample content with your own and configure as needed.
+**Looking for an example?** Fork the [Minimal Mistakes remote theme starter](https://github.com/ynievesdotnet/mm-github-pages-starter) for the quickest method of getting a GitHub Pages hosted site up and running. Replace sample content with your own and configure as needed.
 
 ## Usage
 
-For detailed instructions on how to configure, customize, add/migrate content, and more read the [theme's documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
+For detailed instructions on how to configure, customize, add/migrate content, and more read the [theme's documentation](https://ynievesdotnet.github.io/ynievesdotnet/docs/quick-start-guide/).
 
 ---
 
 ## Contributing
 
-Having trouble working with the theme? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/mmistakes/minimal-mistakes/issues)? Then by all means [submit an issue](https://github.com/mmistakes/minimal-mistakes/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+Having trouble working with the theme? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/ynievesdotnet/ynievesdotnet/issues)? Then by all means [submit an issue](https://github.com/ynievesdotnet/ynievesdotnet/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
 
 Minimal Mistakes has been designed as a base for you to customize and fit your site's unique needs. Please keep this in mind when requesting features and/or submitting pull requests. If it's not something that most people will use, I probably won't consider it. When in doubt ask. 
 
@@ -169,8 +169,8 @@ To test the theme, run `bundle exec rake preview` and open your browser at `http
 **Michael Rose**
 
 - <https://mademistakes.com>
-- <https://twitter.com/mmistakes>
-- <https://github.com/mmistakes>
+- <https://twitter.com/ynievesdotnet>
+- <https://github.com/ynievesdotnet>
 
 ### Icons + Demo Images:
 

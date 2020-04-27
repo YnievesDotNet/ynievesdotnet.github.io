@@ -1,12 +1,26 @@
 # main links
 main:
-  - title: "Projects"
-    url: https://ynievesdotnet.github.io/ynievesdotnet/docs/projects/
-  - title: "About"
-    url: https://ynievesdotnet.github.io/ynievesdotnet/docs/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Productos"
+    url: /products/
+  - title: "Repositorios"
+    url: /docs/repositories/
+  - title: "¿Quienes Somos?"
+    url: /about/
+  #- title: "Tests"
+  #  url: /docs/quick-start-guide/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  #- title: "Sitemap"
+  #  url: /sitemap/
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
